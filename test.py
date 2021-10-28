@@ -1,13 +1,3 @@
-# parallel_pro
-parallel_pro is a simple package for parallel processing.
-
-# Installation
-```bash
-pip install parallel_pro
-```
-
-# How to use
-```python
 from parallel_pro import run_parallel
 from datetime import datetime
 
@@ -27,4 +17,7 @@ def main():
     # print(data)
     diff = end - start
     print(diff.total_seconds() / 60)
-```
+
+
+if __name__ == "__main__":
+    main()
