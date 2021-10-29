@@ -11,7 +11,7 @@ def test(data):
 
 def main():
     start = datetime.now()
-    data = run_parallel(list_of_data=list(range(100)), process_fun=test,
+    data = run_parallel(list_of_data=list(range(100)), process_fun=test,workers=4,
                         verbose=False)
     end = datetime.now()
     # print(data)

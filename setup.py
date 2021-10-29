@@ -5,7 +5,7 @@ with open('README.md') as f:
 
 setuptools.setup(
     name="parallel_pro",
-    version="0.0.1",
+    version="1.0.0",
     scripts=['parallel_pro/__init__.py'],
     author="Sai Kumar Yava",
     description="parallel_pro is a simple package for parallel processing",
